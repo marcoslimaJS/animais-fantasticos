@@ -4,7 +4,7 @@ export default class Modal {
     this.botaoFechar = document.querySelector(btnFechar);
     this.containerModal = document.querySelector(container);
 
-    /* bind this ao callback para fazer refencia ao objeto da classe
+    /* bind this ao callback para fazer referencia ao objeto da classe
     */
     this.eventToggleModal = this.eventToggleModal.bind(this);
     this.cliqueForaModal = this.cliqueForaModal.bind(this);
