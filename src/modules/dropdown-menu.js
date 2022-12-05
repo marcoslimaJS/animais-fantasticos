@@ -11,7 +11,6 @@ export default class DropdownMenu {
   a função que observa o click fora dele
   */
   activeDropdownMenu(event) {
-    console.log(event);
     event.preventDefault();
     const element = event.currentTarget;
     element.classList.add('active');
@@ -24,7 +23,6 @@ export default class DropdownMenu {
   // Adiciona os eventos ao dropdownMenu
   addDropdownMenuEvent() {
     this.dropdownMenus.forEach((menu) => {
-      console.log(this.events);
       this.events.forEach((userEvent) => {
         menu.addEventListener(userEvent, this.activeDropdownMenu);
       });
