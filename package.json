@@ -2,7 +2,7 @@
   "name": "animais-eslint",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "main.js",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch"
